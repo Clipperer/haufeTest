@@ -5,7 +5,6 @@ import { Component } from '@angular/core';
 
 @Component({
     templateUrl: 'clientsMain.html',
-    styleUrls: ['clientsMain.scss']
 })
 
 export class ClientsMain {}
