@@ -1,5 +1,5 @@
 # haufeTest
-Test application for haufe
+Test application for Haufe Barcelona
 
 Express JS/ Angular 2/ Node sample app for displaying client information
 
