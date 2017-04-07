@@ -1,0 +1,14 @@
+<div class="clientsOverview">
+    <h3 class="clientsOverview__title">Statistics</h3>
+    <div class="clientsOverview__stats" *ngIf="clients">
+        <div class="clientsOverview__stats__pie">
+            <svg viewBox="0 0 32 32" class="pieChart">
+                <circle class="pieChart__fill" [ngStyle]="{'stroke-dasharray': percentage + ' 100'}" r="16" cx="16" cy="16" />
+            </svg>
+        </div>
+        <div class="clientsOverview__stats__legend">
+            <div>Male workers: {{percentage}}%</div>
+            <div>Female workers: {{100 - percentage}}%</div>
+        </div>
+    </div>
+</div>

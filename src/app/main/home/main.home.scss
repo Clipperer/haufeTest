@@ -1,0 +1,7 @@
+.home {padding: 22px; background-color: $mainBgColor; min-height: 100%;
+  &__title {color: $blueTextColor; font-family: 'Open Sans' sans-serif; font-weight: 700; font-size: 24px; margin: 22px 0;}
+  &__text {color: $greyTextColor; font-size: 14px;}
+  &__btn {line-height: 54px; border: 3px solid $buttonColor; color: $buttonColor; text-transform: uppercase; font-family: 'Open Sans' sans-serif; font-weight: 700; font-size: 15px; margin-top: 36px;
+    &:hover, &:focus {background-color: $buttonColor; color: $whiteTextColor;}
+  }
+}

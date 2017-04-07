@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Tom Huddlestone",
+    "sex": "male",
+    "email": "tom@jerry.com"
+  },
+  {
+    "id": 2,
+    "name": "Dolly Parton",
+    "sex": "female",
+    "email": "dolly@parton.com"
+  },
+  {
+    "id": 3,
+    "name": "John Doe",
+    "sex": "male",
+    "email": "some@body.com"
+  },
+  {
+    "id": 4,
+    "name": "Jane Doe",
+    "sex": "female",
+    "email": "once@told.com"
+  },
+  {
+    "id": 5,
+    "name": "Last Person",
+    "sex": "female",
+    "email": "me@theworld.com"
+  },
+  {
+    "id": 6,
+    "name": "Error Client",
+    "sex": "male"
+  },
+  {
+    "id": 7,
+    "name": "Missing Sex",
+    "email": "not@pun.com"
+  }
+]

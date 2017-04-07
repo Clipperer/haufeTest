@@ -1,0 +1,17 @@
+.clientDetails { padding: 40px; margin-left: $clientListWidth; display: flex; flex-flow: row wrap; position: relative;
+  &__btn {line-height: 30px; border: 1px solid $greyButton; color: $greyButton; position: absolute; right: 40px; top: 40px;
+    &:hover, &:focus {background-color: $greyButton; color: $mainBgColor;}
+  }
+  &__imgHolder {height: 105px; width: 105px; border-radius: 55px; background-color: $holderBackground;}
+  &__info {display: flex; flex-flow: column wrap; margin-left: 24px;
+    &__name {color: $buttonColor; font-size: 24px; font-family: 'Open Sans' sans-serif; font-weight: 700; width: 100%; padding: 10px 0 15px 0;}
+    &__details {display: flex;}
+  }
+  &__text {color: $greyTextColor; width: 100%; margin-top: 30px;}
+}
+
+.detailColumn {min-width: 160px; display: flex; flex-flow: column wrap; color: $greyTextColor; font-size: 16px;line-height: 20px;
+  &:first-of-type {min-width: 105px;}
+  &__title { margin: 0;  font-weight: 500;}
+  &__item {font-weight: 700; margin: 0;}
+}

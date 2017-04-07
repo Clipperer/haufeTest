@@ -1,0 +1,12 @@
+<div class="clientsList">
+    <div class="clientsList__holder">
+        <div class="client" (click)="selectClient(client.id)" *ngFor="let client of clients"
+             [ngClass]="{'client--selected': client.id === selectedId}">
+            <div class="client__imgHolder"></div>
+            <div class="client__details">
+                <p class="client__details__name">{{client.name}}</p>
+                <p class="client__details__email">{{client.email}}</p>
+            </div>
+        </div>
+    </div>
+</div>

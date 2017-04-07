@@ -1,0 +1,15 @@
+.clientsList { width: $clientListWidth; position: fixed; left: 0;  box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.1); max-height: 100%; overflow: auto; min-height: 100%; background-color: $whiteTextColor;
+  &__holder {max-height: 100%; overflow-y: auto; margin-bottom: $topBarHeight;}
+  &__title {text-align: center;}
+  &__backBtn {position: absolute; top: 0; right: 0;}
+}
+
+.client {display: flex; height: 56px; align-items: center; padding: 0 26px; cursor: pointer; background-color: $whiteTextColor; border-bottom: 1px solid $borderGreyColor;
+  &:hover, &--selected {background-color: $clientsHover;}
+  &--selected {background-color: $clientsHover; border-right: 4px solid $buttonColor;}
+  &__imgHolder {height: 36px; width: 36px; border-radius: 18px; background-color: $holderBackground;}
+  &__details {line-height: 18px; font-size: 14px; color: $topBgColor; margin-left: 16px; max-width: 140px; overflow: hidden;
+    &__name {margin: 0;}
+    &__email {margin: 0; color: lighten($topBgColor, 30%);}
+  }
+}

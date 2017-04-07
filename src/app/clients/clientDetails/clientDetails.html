@@ -1,0 +1,26 @@
+<div class="clientDetails" *ngIf="client">
+    <button class="clientDetails__btn" md-button (click)="goBack()">Back</button>
+    <div class="clientDetails__imgHolder"></div>
+    <div class="clientDetails__info" *ngIf="client">
+        <div class="clientDetails__info__name">
+            {{client.name}}
+        </div>
+        <div class="clientDetails__info__details">
+            <div class="detailColumn">
+                <h3 class="detailColumn__title">Sex:</h3>
+                <p class="detailColumn__item">{{client.sex}}</p>
+            </div>
+            <div class="detailColumn">
+                <h3 class="detailColumn__title">Email:</h3>
+                <p class="detailColumn__item">{{client.email}}</p>
+            </div>
+            <div class="detailColumn">
+                <h3 class="detailColumn__title">Address:</h3>
+                <p class="detailColumn__item">{{client.address.City}}, {{client.address.Street}}, {{client.address.Number}}, {{client.address.Country}}</p>
+            </div>
+        </div>
+    </div>
+    <div class="clientDetails__text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum imperdiet volutpat sem quis porttitor. Donec fringilla, elit a mattis pellentesque, leo ligula porta eros, in aliquet mi erat consectetur nibh. Maecenas vestibulum ante eu nibh interdum laoreet. Proin volutpat auctor enim, sit amet lobortis velit gravida quis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dignissim, dolor eu fringilla dictum, est tellus pharetra velit, vitae auctor justo nulla non libero. Nunc commodo aliquet urna in venenatis. Praesent ac felis pellentesque, interdum enim id, faucibus augue. Quisque auctor ante in mauris facilisis, non gravida dui rutrum. Duis eget velit non augue pretium dignissim. Vestibulum feugiat eros eget augue rutrum, vestibulum blandit dolor varius. Donec tempor sem vehicula eros lobortis, sit amet pharetra tellus placerat. Donec maximus ex ac volutpat elementum. Morbi vulputate tortor metus, eu suscipit quam condimentum a.
+    </div>
+</div>

@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Tom Huddlestone",
+    "sex": "male",
+    "email": "tom@jerry.com",
+    "address": {
+      "City": "Sofia",
+      "Street": "Krakra",
+      "Number": "19",
+      "Country": "Bulgaria"
+    }
+  },{
+    "id": 2,
+    "name": "Dolly Parton",
+    "sex": "female",
+    "email": "dolly@parton.com",
+    "address": {
+      "City": "Barcelona",
+      "Street": "Krakra",
+      "Number": "19",
+      "Country": "Spain"
+    }
+  },{
+    "id": 3,
+    "name": "John Doe",
+    "sex": "male",
+    "email": "some@body.com",
+    "address": {
+      "City": "London",
+      "Street": "Dublingtion",
+      "Number": "23658",
+      "Country": "Brexit"
+    }
+  },{
+    "id": 4,
+    "name": "Jane Doe",
+    "sex": "female",
+    "email": "once@told.com",
+    "address": {
+      "City": "Paris",
+      "Street": "Charles Pegaut",
+      "Number": "25",
+      "Country": "Spain"
+    }
+  },{
+    "id": 5,
+    "name": "Last Person",
+    "sex": "female",
+    "email": "once@told.com",
+    "address": {
+      "City": "Chicago",
+      "Street": "Windy street",
+      "Number": "53",
+      "Country": "USA"
+    }
+  }
+]

@@ -1,0 +1,11 @@
+.clientsOverview {padding: 40px; margin-left: 260px;
+  &__title {font-family: 'Open Sans' sans-serif; color: $blueTextColor; font-weight: 700; font-size: 24px; margin: 0;}
+  &__stats {display: flex; margin-top: 50px;
+    &__legend {display: flex; flex-flow: column wrap; color: $greyTextColor; font-size: 16px; padding-top: 30px; padding-left: 50px; line-height: 34px;}
+  }
+}
+
+.pieChart {
+  width: 215px; height: 215px; transform: rotate(-90deg); background: #ff934b; border-radius: 50%;
+  &__fill {fill: #ff934b; stroke: #b0fa20; stroke-width: 32;}
+}

@@ -1,0 +1,9 @@
+.topBar {display: flex; background-color: $topBgColor; color: #f3f5f8; font-size: 14px; align-items: center; justify-content: space-between; padding: 0 22px; height: $topBarHeight;
+  &__btn {padding: 0;}
+  &__img {height: 16px; width: auto;}
+  &__nav {display: flex;
+    &__item {font-weight: 700; font-size: 12px; color: $whiteTextColor;
+      md-icon {font-size: 20px; margin-left: 12px;}
+    }
+  }
+}
