@@ -15,7 +15,7 @@ import { MainModule } from './main/main.module';
 import { ClientsModule } from './clients/clients.module'
 
 //theming css
-import '@angular/material/core/theming/prebuilt/deeppurple-amber.scss';
+import '@angular/material/prebuilt-themes/deeppurple-amber.css';
 
 @NgModule({
     imports: [
